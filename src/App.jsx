@@ -1,9 +1,12 @@
 import "./App.css";
+import { CssBaseline } from "@mui/material";
+import Button from "@mui/material/Button";
 
 function App() {
   return (
     <>
-      <h1>welcome</h1>
+      <CssBaseline />
+      <Button variant="outlined">Welcome</Button>
     </>
   );
 }
